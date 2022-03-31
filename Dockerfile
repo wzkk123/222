@@ -2,7 +2,7 @@
 # 选择构建用基础镜像（选择原则：在包含所有用到的依赖前提下尽可能提及小）。如需更换，请到[dockerhub官方仓库](https://hub.docker.com/_/python?tab=tags)自行选择后替换。
 
 # 选择基础镜像
-FROM python:3.9
+FROM python:3.7.11
 
 # 设定当前的工作目录
 WORKDIR /app
